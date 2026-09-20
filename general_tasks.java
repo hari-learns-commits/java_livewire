@@ -62,9 +62,36 @@ public class general_tasks {
 		System.out.println("Variable 2 = " + var_2);
 		
 		
+		//km to miles
+		int km = 10;
+		double miles = km * 0.63;
+
+		System.out.println(km + " kilometers = " + miles + " miles");
 		
 		
+		//celsius to farenheit
+		double celsius = 25;
+        double fahrenheit = (celsius * 1.8) + 32;
+
+		System.out.println("Celsius = " + celsius);
+		System.out.println("Fahrenheit = " + fahrenheit);
 		
+		
+		//finding the last digit of a number
+		int num = 43353;
+		int last_digit = num % 10;
+		
+		System.out.println("The last digit of " + num + " is " + last_digit);
+		
+		
+		//finding the last two digits of a number
+		int number = 1828395;
+		int last_two_digits = number % 100;
+		
+		System.out.println("The last two digits of " + number + " is " + last_two_digits);
+		
+		
+		//
 
 	}
 
